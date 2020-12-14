@@ -1,6 +1,13 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0 ; 
+}
+
+
 .head {
-    display:flex;
+    display: flex;
     background-color: lightgreen;
+    margin-right :0%;
 }
 
 img#picture1 {
@@ -9,14 +16,39 @@ img#picture1 {
 }
 
 .placement {
-    display: inline-grid;
-    grid-template-columns: repeat(6, auto);
-    grid-template-rows: repeat(6, auto);
+        width: 100%;
+        font-size: 1.5rem;
+        text-align:top;
+        display:flex;
 }
 
-.reception1 {
-    grid-row-start:1 ;
-    grid-column-start: 2;
-    margin-right: 10px;
+.reception {
+    padding : 2%;
+    font-size: 1rem;
+}
+
+.allManga {
+    padding: 1%;
+    gap: ;
+    display: inline;
+}
+
+.Manga {
+    display: inline-flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top:3%;
+    background-color:lightcoral ;
+    text-align: center ;
+}
+
+.imgLost {
+    width: 250px;
+    height: 385px;
+    
+}
+
+#Foot {
+    background: linear-gradient(lightblue, rgb(211, 21, 21))
 }
 
