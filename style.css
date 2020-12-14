@@ -1,0 +1,22 @@
+.head {
+    display:flex;
+    background-color: lightgreen;
+}
+
+img#picture1 {
+    height: 7rem;
+    width: 10rem;
+}
+
+.placement {
+    display: inline-grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(6, auto);
+}
+
+.reception1 {
+    grid-row-start:1 ;
+    grid-column-start: 2;
+    margin-right: 10px;
+}
+
